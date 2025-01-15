@@ -25,6 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET')
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    "91.145.130.184",
     "192.168.0.100",
     "localhost",           # For external access on the host
     "127.0.0.1",           # Local testing
