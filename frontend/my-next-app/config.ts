@@ -1,5 +1,6 @@
 const settings = {
-    backendurl: "https://91.145.130.184/api/",
-  };
-  
+  backendurl: process.env.API_URL || "https://localhost/api/",
+  host_ip: process.env.HOST_IP || "localhost",
+};
+
 export default settings;
